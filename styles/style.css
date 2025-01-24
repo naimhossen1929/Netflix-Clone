@@ -1,0 +1,144 @@
+/* -------Universal styles---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+/* -----------------Shared Styles-------------------- */
+.english-btn {
+    border: 1px solid #F5F5F5;
+    border-radius: 0.3rem;
+    background: rgba(47, 41, 41, 0.09);
+    height: 2rem;
+    width: 9rem;
+    padding: 0 1rem;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1.35px;
+    cursor: pointer;
+    margin-right: 1rem;
+    mix-blend-mode: hard-light;
+}
+
+#e-address {
+    border-radius: 0.3rem;
+    border: 0.5px solid #FFF;
+    background: #2F2929;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    width: 20rem;
+    height: 3rem;
+    mix-blend-mode: hard-light;
+    padding: 1.5rem 3.2rem;
+}
+
+#e-address:focus {
+    outline: 1.5px solid #FFF;
+}
+
+.start-btn {
+    height: 2.9rem;
+    width: 11rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: #C80A0A;
+    cursor: pointer;
+    letter-spacing: 1.26px;
+    padding: 0 0.9rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.start-btn:hover {
+    background: darkred;
+}
+
+/* -----------Header section styles----------- */
+
+.banner-design {
+    background: linear-gradient(180deg, #262424 0%, rgba(27, 25, 25, 0.99) 0%, rgba(18, 16, 16, 0.00) 100%, rgba(18, 16, 16, 0.78) 100%), url('../assets/images/bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.logo-img {
+    height: 2.5em;
+    width: 7rem;
+}
+
+
+
+.sign-btn {
+    height: 1.8rem;
+    width: 7rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: #C80A0A;
+    cursor: pointer;
+    letter-spacing: 1.26px;
+    padding: 0 0.9rem;
+    color: #FFF;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.sign-btn:hover {
+    background: darkred;
+}
+
+.header-description {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    h2 {
+        color: #FFF;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 3.33px;
+    }
+
+    .para-des {
+        color: #FFF;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    p {
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+}
+
+.input-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
