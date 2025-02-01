@@ -1,0 +1,14 @@
+/* --------Mobile Device--------------- */
+@media screen and (max-width:600px) {
+   nav{
+    padding: 2rem;
+
+   }    
+   .sign-btn{
+    width: 4rem;
+   } 
+   .english-btn{
+    display: none;
+   }
+
+}
